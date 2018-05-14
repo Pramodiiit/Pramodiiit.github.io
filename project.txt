@@ -1,0 +1,189 @@
+<DOCTYPE! html>
+<head>
+<title>Temples Guide</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body   { 
+        background-attachment: fixed;
+        font-type: arial;
+        
+        
+       }  
+div.one    {
+        font-color: lightblue;
+        margin: 20px 100px 20px 100px;
+        background-color: black;
+        border: 5px outset;
+        padding: 20px 20px 20px 20px;
+       }
+div.two    {margin: 20px 100px 20px 100px;
+            background-color: black;
+            font-color: lightgreen;
+            border: 5px inset;
+            padding: 20px 20px 20px 20px;
+            }
+
+
+img {
+    display: block;
+    margin: 10 auto;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: lightblue;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+h1 
+   {
+   color: white;
+   }
+
+.mySlides {display:none;}
+
+</style>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+
+<body background= "C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\greengrass.jpg">
+
+<h1 align="center"><img src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\greengrass.jpg" align="center" width="100px" height="50px">Temples Guide</h1>
+<div class= "one">
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#events">Events</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About us</a></li>
+  <li><a href="contactus.html">Galleries</a></li>
+</ul>
+
+
+<div class="w3-content w3-section" style="max-width:750px">
+
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\floorwood.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\sunset.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\sunset1.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\sunset2.jpg" style="width:100%">
+
+</div>
+
+
+<br>
+<hr>
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+
+ 
+
+</div>
+
+<div class= "two">
+<h2 align="left">call us for a prayer at</h2><h2 align="center">Send us a prayer request</h2>
+
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+shaiudb oadu adioa oaue adkhawoe aduoe8 aoeofae osfuoaef oaudoiaf 
+auofof oafouaeouaf a8oadc aofdaiakhkf ilasufi safuhiuafuil asfui afhu7efl fbulsfu;FPUSF 
+</div>
+
+</body>
+</html>

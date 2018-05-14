@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>assam</title>
+<style>
+div.one    {
+        font-color: crimson;
+        margin: 20px 100px 20px 100px;
+        background-color: none;  
+        padding: 20px 20px 20px 20px;
+       }
+img {
+    display: block;
+    margin: 10 auto;
+   border-radius: 5px;
+}
+body {
+       background-attachment: fixed; 
+     }
+
+</style>
+</head>
+
+<body background="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\maha1.jpg">
+<h1 align="center">Temples Guide</h1>
+<br>
+<h2 align="left"><u>Assam</u></h2>
+<t>
+<b>Select City: <input type="text" name="city"/></b>
+<t>
+<input type="button" value="Go"/>
+<br>
+<br>
+<div class="one">
+<a href="galleries.html" align="right"><input type="button" value="Go to Galleries"/></a>
+<br>
+<div class="w3-content w3-section" style="max-width:750px">
+
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\1.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\2.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\3.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\4.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\5.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\6.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\7.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\8.jpg" width="1080" height="400" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\9.jpg" width="1080" height="400" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\10.jpg" width="1080" height="400" border-radius="5">
+
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 1500);
+}
+</script>
+
+
+
+
+</div>
+</body>
+
+</html>

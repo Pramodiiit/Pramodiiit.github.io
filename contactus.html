@@ -1,0 +1,100 @@
+<DOCTYPE! html>
+<head>
+<title>Temples Guide</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body   { 
+        background-attachment: fixed;
+        font-type: arial;
+        
+        
+       }  
+img {
+    display: block;
+    margin: 10 auto;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px;
+    overflow: hidden;
+    padding-left:25px;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px 15px;
+    text-decoration: none;
+    letter-spacing: 2px;    
+}
+
+li a:hover:not(.active) {
+    background-color: lightblue;
+}
+
+.active {
+    background-color: crimson;
+}
+
+h1 
+   {
+   color: crimson;
+   }
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('E:\iiitk\sample\Sunset-Siesta\Snapshots\Siesta.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+
+</style>
+
+
+
+
+<body>
+
+<h1 align="center">Temples Guide</h1>
+<video poster="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\sample\Nowhere\snapshots\Nowhere.jpg" id="bgvid" playsinline autoplay muted loop>
+
+<source src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\sample\Nowhere\MP4\Nowhere.mp4" type="video/mp4">
+</video>
+
+<ul>
+  <li><a href="project.html">Home</a></li>
+  <li><a href="aboutus.html">About us</a></li>
+  <li><a href="galleries.html">Galleries</a></li>
+  <li><a href="booking.html">Booking</a></li>
+  <li><a class="active" href="contactus.html">Contact us</a></li>
+</ul>
+
+
+
+</body>
+</html>

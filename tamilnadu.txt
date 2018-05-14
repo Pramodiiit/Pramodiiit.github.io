@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>tamilnadu</title>
+<style>
+
+</style>
+</head>
+
+<body>
+<big align="center">Temples Guide</big>
+<br>
+<h1 align="left"><u>Tamilnadu<u><h1>
+<t>
+<input type="text" align="right">Select city:</input>
+</body>
+
+</html>

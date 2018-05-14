@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>kerala</title>
+<style>
+div.one    {
+        font-color: crimson;
+        margin: 20px 100px 20px 100px;
+        background-color: white;  
+        padding: 20px 20px 20px 20px;
+       }
+img {
+    display: block;
+    margin: 10 auto;
+   border-radius: 5px;
+}
+body {
+       background-attachment: fixed; 
+     }
+font {
+      font-size: 25px;
+      font-type: times_new_roman;
+     }
+font.one {
+         font-size: 30px;
+         font-type: times_new_roman;
+         letter-spacing: 2px;
+         }
+
+</style>
+</head>
+
+<body background="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\kerala\nature.jpg">
+<h1 align="center">Temples Guide</h1>
+<br>
+<font class="one"><u>Kerala</u></font>
+<br>
+<br>
+<font> Select City: <input type="text" name="city"/></font>
+<t>
+<input type="button" value="Go"/>
+<br>
+<br>
+<div class="one">
+<a href="galleries.html" align="right"><input type="button" value="Go to Galleries"/></a>
+<br>
+<div class="w3-content w3-section" style="max-width:750px">
+
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\kerala\1.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\kerala\2.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\kerala\3.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\kerala\4.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\kerala\5.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\kerala\6.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\kerala\7.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\kerala\8.jpg" width="1080" height="400" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\kerala\9.jpg" width="1080" height="400" border-radius="5">
+<img class="mySlides w3-animate-fading" src="E:\iiitk\vatsav\kerala\10.jpg" width="1080" height="400" border-radius="5">
+
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 1500);
+}
+</script>
+
+
+
+
+</div>
+</body>
+
+</html>

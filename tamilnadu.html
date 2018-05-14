@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>tamilnadu</title>
+<style>
+div.one    {
+        font-color: crimson;
+        margin: 20px 100px 20px 100px;
+        background-color: white;  
+        padding: 20px 20px 20px 20px;
+       }
+img {
+    display: block;
+    margin: 10 auto;
+   border-radius: 5px;
+}
+body {
+       background-attachment: fixed; 
+     }
+h1   {
+  color: white;
+     }
+font {
+    font-size: 25px;
+    font-type: times_new_roman;
+    }
+font.one {
+     font-type: times_new_roman;
+     font-size: 30px;
+     letter-spacing: 2px;
+         }
+</style>
+</head>
+
+<body background="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\maha1.jpg">
+<h1 align="center">Temples Guide</h1>
+<br>
+<font class="one" align="left"><u>Tamilnadu</u></font>
+<br>
+<br>
+<br>
+<font>Select City:</font><t><t> <input type="text" class="one" name="city"/>
+<t>
+<input type="button" value="Go"/>
+<br>
+<br>
+<div class="one">
+<a href="galleries.html" align="right"><input type="button" value="Go to Galleries"/></a>
+<br>
+<div class="w3-content w3-section" style="max-width:750px">
+
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\1.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\2.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\3.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\4.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\5.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\6.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\7.jpg" width="1080" height="500" border-radius="5">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\8.jpg" width="1080" height="400" border-radius="5">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\9.jpg" width="1080" height="400" border-radius="5">
+<img class="mySlides w3-animate-fading" src="C:\Users\Sree\Documents\GitHub\Pramodiiit.github.io\vatsav\10.jpg" width="1080" height="400" border-radius="5">
+
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 1500);
+}
+</script>
+
+
+
+
+</div>
+</body>
+
+</html>
